@@ -1,0 +1,27 @@
+version: '3.9'
+
+services:
+  monitor:
+    build: .
+    container_name: energy_monitor
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["python", "-m", "src.main"]
+
+  dashboard:
+    build: .
+    container_name: energy_dashboard
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["streamlit", "run", "src/dashboard.py", "--server.port", "8501", "--server.address", "0.0.0.0"]
+

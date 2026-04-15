@@ -1,0 +1,17 @@
+[Unit]
+Description=Dashboard dos Dados
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=insira/o/caminho/correto/do/projetos
+EnvironmentFile=insira/o/caminho/correto/do/.env
+ExecStart=/insira/o/caminho/correto/do/.venv/bin/python3 -m streamlit run src/dashboard.py --server.address [endereço do servidor]
+4 --server.port 8501
+Restart=always
+RestartSec=5
+User=exemplo
+Group=exemplo
+
+[Install]
+WantedBy=multi-user.target

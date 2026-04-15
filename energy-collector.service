@@ -1,0 +1,16 @@
+[Unit]
+Description=Energy Collector
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/insira/o/caminho/correto/do/diretorio/do/projeto
+EnvironmentFile=/insira/o/caminho/correto/do/.env
+ExecStart=/insira/o/caminho/correto/do/.venv/bin/python -m src.main
+Restart=always
+RestartSec=5
+User=exemplo
+Group=exemplo
+
+[Install]
+WantedBy=multi-user.target

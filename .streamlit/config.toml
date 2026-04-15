@@ -1,0 +1,6 @@
+[server]
+address = "[Insira seu endereço aqui]"
+port = 8501 [porta padrão do streamlit]
+enableCORS = true
+enableXsrfProtection = true
+headless = true
