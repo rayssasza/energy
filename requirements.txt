@@ -1,4 +1,4 @@
-// use o comando pip install requirements.txt para baixar todas as bibliotecas do projeto
+## use o comando pip install requirements.txt para baixar todas as bibliotecas do projeto ##
 pymodbus>=3.3.2
 APScheduler>=3.11.2
 streamlit>=1.26.0
