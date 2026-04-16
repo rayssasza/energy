@@ -36,7 +36,7 @@ python test.py
 
 Ainda escrevendo essa parte.
 
-## Contributing
+## Como contribuir
 
 1. Faça o _fork_ do projeto (<https://github.com/rayssasza/energy/fork>)
 2. Crie uma _branch_ para sua modificação (`git checkout -b feature/energy`)
@@ -44,3 +44,6 @@ Ainda escrevendo essa parte.
 4. _Push_ (`git push origin feature/energy`)
 5. Crie um novo _Pull Request_
 
+## Template do README.md
+
+Esse README foi copiado a partir do template disponibilizado pelo projeto: <https://github.com/dbader/readme-template>
