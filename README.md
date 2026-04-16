@@ -1,7 +1,7 @@
 # Sistema de Monitoramento de Energia do ModBus
 > Ainda estou adaptando o readme do projeto e fazendo algumas alterações para ele ficar open source, mas basicamente ele realiza o monitoramento do consumo de energia do ModBus, coletando os dados e armazenando no banco de dados. Além disso, é utilizado a **Streamlit** para mostrar todos os dados em um Dashboard e enviado os relatórios de consumo todo dia 20.
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+Vou incluir mais informações aqui.
 
 ## Instalação
 
