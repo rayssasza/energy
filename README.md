@@ -23,6 +23,12 @@ Ainda escrevendo essa parte.
 ```sh
 npm test
 ```
+### Organização da Arquitetura
+```
+src/
+├── main               # função principal
+     └──  ainda em desenvolvimento 
+```
 
 ## Comandos para Testar a Aplicação e seu funcionamento
 
@@ -31,6 +37,7 @@ Ainda escrevendo essa parte.
 ```sh
 python test.py
 ```
+
 
 ## Outros recursos
 
